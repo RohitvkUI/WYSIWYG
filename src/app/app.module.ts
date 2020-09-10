@@ -4,9 +4,9 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
-import { OfferDetailComponent } from  './';
+import { OfferDetailComponent } from  './offer-detail/offer-detail.component';
 import { MiniCartComponent } from './mini-cart/mini-cart.component';
-import { CouponListComponent } from '';
+import { CouponListComponent } from './coupon-list/coupon-list.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
