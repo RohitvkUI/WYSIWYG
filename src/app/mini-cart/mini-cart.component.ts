@@ -10,10 +10,15 @@ import { Component, OnInit} from '@angular/core';
 
 export class MiniCartComponent implements OnInit {
 
+  message = 'This is initial minicart State';
 
   constructor() {}
 
 
-  public ngOnInit(){}
+  public ngOnInit(){
+    setTimeout(() => {
+      this.message = 'Final State';
+    }, 500);
+  }
 
 }
