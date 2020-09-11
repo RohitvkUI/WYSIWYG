@@ -16,6 +16,7 @@ export class MiniCartComponent implements OnInit {
 
 
   public ngOnInit(){
+     console.log('mini-cart');
     setTimeout(() => {
       this.message = 'Final State';
     }, 500);

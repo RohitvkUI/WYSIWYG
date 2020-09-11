@@ -14,6 +14,8 @@ export class OfferDetailComponent implements OnInit {
   constructor() {}
 
 
-  public ngOnInit(){}
+  public ngOnInit(){
+    console.log('offer-detail');
+  }
 
 }

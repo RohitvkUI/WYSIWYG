@@ -14,6 +14,8 @@ export class CouponListComponent implements OnInit {
   constructor() {}
 
 
-  public ngOnInit(){}
+  public ngOnInit(){
+     console.log('coupon-list');
+  }
 
 }
